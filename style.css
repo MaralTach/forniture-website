@@ -1,0 +1,59 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #efefef;
+}
+
+.container {
+  width: 80%;
+  background-color: #eeecec;
+  margin: 50px auto;
+  font-family: "Judson", serif;
+  border-radius: 1.5rem;
+  box-shadow: 2px 2px 50px black;
+}
+div {
+  display: block;
+}
+
+.logo {
+  margin: 10px;
+  padding: 10px;
+  height: 50px;
+  border-radius: 15px;
+  box-shadow: -1px 1px 5px;
+}
+
+.input-part {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.input-part select {
+  width: 190px;
+  height: 40px;
+  background-color: #d9d9d9;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: "Bellota" cursive;
+  font-size: 1.1rem;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+option {
+  font-weight: normal;
+  display: block;
+  min-height: 1.2em;
+  white-space: wrap;
+}
