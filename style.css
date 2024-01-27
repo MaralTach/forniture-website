@@ -17,7 +17,7 @@ body {
   /* font-family: "Open Sans", sans-serif; */
 }
 
-.container {
+.main {
   width: 80%;
   background-color: #eeecec;
   margin: 50px auto;
@@ -159,16 +159,9 @@ li {
   box-shadow: 1px 1px 1px #aea08d;
 }
 
-/* li:hover::after {
-  background: #d2bb92;
-  cursor: pointer;
-  border-radius: 5px;
-} */
 
 
- li{
 
-}
  li::after{
   content: '';
   height: 3px;
@@ -323,7 +316,7 @@ header {
   width: 40%;
   font-size: 1.5rem;
 }
-.formElement {
+.information {
   margin: 1.5rem 1rem;
 }
 .formsection input {
